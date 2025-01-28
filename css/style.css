@@ -78,3 +78,124 @@ header nav a:hover{
 
 /*----------------BANNIÈRE----------------*/
 
+.bannière{
+    background-color: #EEEEEE;
+
+}
+
+.bannière .wrapper{
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+/*----------------TRANSPORT----------------*/
+
+.titre-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+
+    background-color: #EEEEEE;
+
+    border: solid 1px #D0D0D0;
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+article p{
+    text-align: center;
+}
+
+/*----------------FOOTER----------------*/
+
+
+footer a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+
+.facebook a{
+    background-image: url("../images/ms_facebook.jpg");
+}
+.twitter a{
+    background-image: url("../images/ms_twitter.jpg");
+}
+.linkedin a{
+    background-image: url("../images/ms_in.jpg");
+}
+.pinterest a{
+    background-image: url("../images/ms_pinterest.jpg");
+}
+
+
+.facebook a:hover{
+    background-image: url("../images/ms_facebook_hover.jpg");
+}
+.twitter a:hover{
+    background-image: url("../images/ms_twitter_hover.jpg");
+}
+.linkedin a:hover{
+    background-image: url("../images/ms_in_hover.jpg");
+}
+.pinterest a:hover{
+    background-image: url("../images/ms_pinterest_hover.jpg");
+}
+
+
+footer ul{
+    display: flex;
+    gap: 20px;
+
+    list-style: none;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+}
+
+h4{
+    color: white;
+}
+
